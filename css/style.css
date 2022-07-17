@@ -1,0 +1,62 @@
+body {
+  font-family: Roboto, sans-serif;
+  /* font-size: 1.5em; */
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+ul li {
+  list-style-type: none;
+  margin-right: 20px;
+  cursor: pointer;
+  /* background-color: blue; */
+}
+
+.block {
+  margin: 0px 20px;
+  padding: 30vh 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: aqua;
+}
+
+p {
+  font-size: 1.5em;
+  color: aliceblue;
+  background-color: black;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.active {
+  border-bottom: 2px green solid;
+}
+
+button {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+p span {
+  color: blue;
+  color: ;
+}
